@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>movie list</h2>
+<ul>
+    {% for i in movies%}
+    <li>{{i.name}},{{i.dirctoe}},{{i.year}}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
